@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ -d public ]  && stow -n -v -t "$HOME" $* public
+[ -d private ] && stow -n -v -t "$HOME" $* private
+
