@@ -1,0 +1,7 @@
+-o '%(title)s.%(ext)s'
+--all-subs
+--write-sub
+--embed-subs
+--embed-thumbnail
+--add-metadata
+
