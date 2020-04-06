@@ -1,0 +1,8 @@
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+#rofi.theme: /usr/share/rofi/themes/sidebar.rasi
+#rofi.color-window: #1E272B, #9D6A47, #9D6A47
+#rofi.color-normal: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+#rofi.color-active: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+#rofi.color-urgent: #1E272B, #EAD49B, #1E272B, #1E272B, #78823B
+#rofi.modi: window,run,ssh,drun
+
