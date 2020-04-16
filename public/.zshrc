@@ -90,6 +90,8 @@ plugins=(
     pass
 )
 
+PS2="! "
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
