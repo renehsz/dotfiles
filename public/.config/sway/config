@@ -79,6 +79,7 @@ exec mako
 #exec urxvtd
 exec redshift -l 48.2082:16.3738
 exec kanshi
+exec cadence-session-start --system-start
 
 #exec emacs
 
