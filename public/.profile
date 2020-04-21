@@ -28,3 +28,5 @@ alias astah='PATH="/usr/lib/jvm/java-8-openjdk/jre/bin/:$PATH" astah'
 alias bluej="_JAVA_OPTIONS= bluej"
 # Make x48 run
 alias x48="x48 -connFont fixed -largeFont fixed -smallFont fixed -mediumFont fixed"
+# Run maxima without annoying startup message
+alias maxima="maxima -q"
