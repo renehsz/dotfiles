@@ -1,11 +1,15 @@
 
-# Preferred editor for local and remote sessions
-if [ -n $SSH_CONNECTION ]; then
-    export EDITOR='vi'
-else
-    export EDITOR="emacsclient"
+if [[ -z $EDITOR ]]; then
+    # Preferred editor for local and remote sessions
+    if [ -n $SSH_CONNECTION ]; then
+        export EDITOR='vi'
+    else
+        export EDITOR="emacsclient"
+    fi
 fi
-export VISUAL="$EDITOR"
+if [[ -z $VISUAL ]]; then
+    export VISUAL="$EDITOR"
+fi
 
 # General flags
 export MAKEFLAGS="-j$(nproc)"
