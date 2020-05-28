@@ -19,10 +19,11 @@ fi
 
 #xscreensaver -no-splash &
 #xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
-#urxvtd -q &
+compton &
+urxvtd -q &
 unclutter &
 nm-applet &
-cbatticon &
+#cbatticon &
 #redshift -l 48.2082:16.3738 &
 
 # Keyboard rate
