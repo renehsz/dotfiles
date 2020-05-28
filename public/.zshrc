@@ -115,6 +115,7 @@ alias ssh="ssh -X"
 
 alias o="xdg-open"
 alias x="extract"
+alias sudo="echo"
 
 # Set color scheme
 [ -f ~/.cache/wal/sequences ] && (cat ~/.cache/wal/sequences &)
