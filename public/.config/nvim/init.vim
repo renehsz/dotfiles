@@ -26,7 +26,7 @@ Plug 'moorereason/vim-markdownfmt'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'idanarye/vim-vebugger'
 Plug 'artur-shaik/vim-javacomplete2'
-Plug 'rhysd/vim-clang-format'
+"Plug 'rhysd/vim-clang-format'
 Plug 'dylanaraps/wal.vim'
 call plug#end()
 
@@ -41,8 +41,8 @@ let g:latex_pdf_viewer="zathura"
 let g:latex_engine="xelatex"
 let g:markdownfmt_command="mdfmt"
 "let g:markdownfmt_autosave=1
-let g:clang_format#detect_style_file=1
-let g:clang_format#auto_format=1
+"let g:clang_format#detect_style_file=1
+"let g:clang_format#auto_format=1
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
